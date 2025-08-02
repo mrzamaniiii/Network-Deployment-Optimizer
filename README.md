@@ -1,6 +1,6 @@
 # 📡 Network Deployment Optimizer
 
-This project applies **Mixed Integer Linear Programming (MILP)** to optimize the deployment of wireless cellular networks. It explores and compares **macro-only**, **micro-only**, and **mixed** base station configurations over a 1500m × 1500m area using realistic radio propagation and throughput models.
+This project applies Mixed Integer Linear Programming (MILP) to optimize the deployment of wireless cellular networks. It explores and compares macro-only, micro-only, and mixed base station configurations over a 1500m × 1500m area using realistic radio propagation and throughput models.
 
 ---
 
@@ -44,7 +44,7 @@ Minimize total cost across selected deployments and assignments.
 
 - ✅ 100% coverage in all scenarios
 - ✅ All test points meet throughput requirement
-- 📉 Mixed scenario achieves **lowest cost** with **balanced performance**
+- 📉 Mixed scenario achieves lowest cost with balanced performance
 
 ---
 
@@ -61,5 +61,3 @@ Minimize total cost across selected deployments and assignments.
 You can view and run the project on Google Colab:
 
 👉 [Open Notebook](https://colab.research.google.com/drive/12T0WBu_Vr4ub91-DC5ij-ran_-aIZMRD#scrollTo=UM9yRCNScmTL)
-
-> The notebook contains all MILP model code, plots, and results.
