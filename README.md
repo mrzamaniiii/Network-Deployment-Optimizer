@@ -2,15 +2,11 @@
 
 This project applies Mixed Integer Linear Programming (MILP) to optimize the deployment of wireless cellular networks. It explores and compares macro-only, micro-only, and mixed base station configurations over a 1500m × 1500m area using realistic radio propagation and throughput models.
 
----
-
 ## Project Overview
 
 - **Optimization Objective**: Minimize total deployment cost while ensuring full coverage and required throughput.
 - **Technology**: MILP (via Python), Okumura-Hata path loss model, Shannon capacity theorem.
 - **Deployment Types**: Macro, Micro, and Mixed base stations.
-
----
 
 ## Mathematical Model
 
@@ -32,8 +28,6 @@ This project applies Mixed Integer Linear Programming (MILP) to optimize the dep
 ### Objective
 Minimize total cost across selected deployments and assignments.
 
----
-
 ## Simulation Results
 
 | Scenario     | Total Cost | Macro BS | Micro BS | Deployed Sites              |
@@ -46,15 +40,11 @@ Minimize total cost across selected deployments and assignments.
 - All test points meet throughput requirement
 - Mixed scenario achieves lowest cost with balanced performance
 
----
-
-## 📈 Visualizations
+## Visualizations
 
 - Coverage maps for each scenario
 - Throughput and cost comparison charts
 - Network topologies for deployment strategies
-
----
 
 ## How to Run
 
